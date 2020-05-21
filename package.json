@@ -88,6 +88,7 @@
   },
   "dependencies": {
     "@tippy.js/react": "^3.0.1",
+    "antd": "^4.2.4",
     "classnames": "^2.2.6",
     "react-copy-to-clipboard": "^5.0.1"
   },

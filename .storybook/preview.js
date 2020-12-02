@@ -1,13 +1,18 @@
-import { addParameters, configure } from '@storybook/react';
+import { configure } from '@storybook/react';
+import { addParameters } from '@storybook/client-api';
 import 'loki/configure-react';
-import ebthTheme from './ebthTheme';
 
 import './assets/stylesheets/storybook.scss';
 
 addParameters({
-  options: {
-    theme: ebthTheme
-  }
+  docs: {
+    extractComponentDescription: (component, { notes }) => {
+      if (notes) {
+        return typeof notes === 'string' ? notes : notes.markdown || notes.text;
+      }
+      return null;
+    },
+  },
 });
 
 configure(

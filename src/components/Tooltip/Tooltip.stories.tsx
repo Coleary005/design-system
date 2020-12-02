@@ -17,6 +17,4 @@ export const usage = () => (
   </>
 );
 
-usage.story = {
-  name: 'usage'
-};
+usage.storyName = 'usage';

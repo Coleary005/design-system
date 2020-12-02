@@ -22,9 +22,7 @@ export const styles = () => (
   </>
 );
 
-styles.story = {
-  name: 'styles'
-};
+styles.storyName = 'styles';
 
 export const withHeading = () => (
   <>
@@ -41,9 +39,7 @@ export const withHeading = () => (
   </>
 );
 
-withHeading.story = {
-  name: 'with heading'
-};
+withHeading.storyName = 'with heading';
 
 export const withIcon = () => (
   <>
@@ -60,9 +56,7 @@ export const withIcon = () => (
   </>
 );
 
-withIcon.story = {
-  name: 'with icon'
-};
+withIcon.storyName = 'with icon';
 
 export const withHeadingAndIcon = () => (
   <>
@@ -91,6 +85,4 @@ export const withHeadingAndIcon = () => (
   </>
 );
 
-withHeadingAndIcon.story = {
-  name: 'with heading + icon'
-};
+withHeadingAndIcon.storyName = 'with heading + icon';

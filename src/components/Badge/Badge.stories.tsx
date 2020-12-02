@@ -23,9 +23,7 @@ export const status = () => (
   </>
 );
 
-status.story = {
-  name: 'status'
-};
+status.storyName = 'status';
 
 export const withTooltip = () => (
   <>
@@ -59,6 +57,4 @@ export const withTooltip = () => (
   </>
 );
 
-withTooltip.story = {
-  name: 'with info tooltip'
-};
+withTooltip.storyName = 'with info tooltip';

@@ -5,7 +5,7 @@ import { Button } from './Button';
 import { Icon } from '../Icon';
 
 export default {
-  title: 'Design System|Button',
+  title: 'Design System/Button',
   component: Button
 };
 
@@ -71,9 +71,7 @@ export const styles = () => (
   </>
 );
 
-styles.story = {
-  name: 'styles'
-};
+styles.storyName = 'styles';
 
 export const sizes = () => (
   <>
@@ -114,9 +112,7 @@ export const sizes = () => (
   </>
 );
 
-sizes.story = {
-  name: 'sizes'
-};
+sizes.storyName = 'sizes';
 
 export const withIcon = () => (
   <>
@@ -135,9 +131,7 @@ export const withIcon = () => (
   </>
 );
 
-withIcon.story = {
-  name: 'with icon'
-};
+withIcon.storyName = 'with icon';
 
 export const display = () => (
   <>
@@ -229,9 +223,7 @@ export const display = () => (
   </>
 );
 
-display.story = {
-  name: 'display'
-};
+display.storyName = 'display';
 
 export const inFlight = () => (
   <Button onClick={action('clicked')} buttonStyle="secondary" inFlight>
@@ -239,6 +231,4 @@ export const inFlight = () => (
   </Button>
 );
 
-inFlight.story = {
-  name: 'in flight'
-};
+inFlight.storyName = 'in flight';

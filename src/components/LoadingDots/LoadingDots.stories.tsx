@@ -16,9 +16,7 @@ export const standAlone = () => (
   </h3>
 );
 
-standAlone.story = {
-  name: 'stand alone'
-};
+standAlone.storyName = 'stand alone';
 
 export const inFlightButton = () => (
   <Button onClick={action('clicked')} buttonStyle="secondary" inFlight>
@@ -26,6 +24,4 @@ export const inFlightButton = () => (
   </Button>
 );
 
-inFlightButton.story = {
-  name: 'in flight button'
-};
+inFlightButton.storyName = 'in flight button';
